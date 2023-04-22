@@ -1,5 +1,5 @@
 {
-  "name": "todovue-label",
+  "name": "todovue-modal",
   "version": "0.1.0",
   "private": false,
   "main": "dist/tvmodal.common.js",
@@ -7,7 +7,7 @@
   "description": "Component modal created for the TodoVue blog",
   "repository": {
     "type": "git",
-    "url": "https://github.com/TODOvue/todovue-tvmodal.git"
+    "url": "https://github.com/TODOvue/todovue-modal.git"
   },
   "keywords": [
     "todovue",
@@ -18,16 +18,19 @@
     "vue-js"
   ],
   "bugs": {
-    "url": "https://github.com/todovue/todovue-tvmodal/issues"
+    "url": "https://github.com/todovue/todovue-modal/issues"
   },
   "scripts": {
     "demo": "vue-cli-service serve",
-    "test:unit": "vue-cli-service test:unit",
+    "test:unit": "vue-cli-service test:unit --coverage",
     "lint": "vue-cli-service lint",
     "build": "vue-cli-service build --target lib --name tvmodal src/component/TvModal.vue --config webpack.config.js"
   },
   "dependencies": {
     "core-js": "^3.8.3",
+    "todovue-button": "^2.1.0",
+    "todovue-css": "^1.4.0",
+    "todovue-demo": "^2.2.1",
     "vue": "^3.2.13"
   },
   "devDependencies": {
