@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`useModal should matches snapshot 1`] = `<!--v-if-->`;
