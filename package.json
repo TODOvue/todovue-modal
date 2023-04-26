@@ -1,6 +1,6 @@
 {
   "name": "todovue-modal",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": false,
   "main": "dist/tvmodal.common.js",
   "author": "Cristhian Daza",
